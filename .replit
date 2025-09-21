@@ -29,3 +29,7 @@ args = "python bot.py"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[deployment]
+deploymentTarget = "vm"
+run = ["python", "bot.py"]
